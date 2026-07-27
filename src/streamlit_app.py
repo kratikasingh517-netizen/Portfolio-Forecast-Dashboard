@@ -16,8 +16,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-from src.database import get_supabase_client
-from src.settings import SUPABASE_TABLE_NAME
+from database import get_supabase_client
+from settings import SUPABASE_TABLE_NAME
 
 st.set_page_config(page_title="Portfolio Forecast Dashboard", layout="wide")
 
